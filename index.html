@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monika's Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-semibold text-gray-700">Monika's Portfolio</div>
+                <nav class="flex space-x-4">
+                    <a href="#home" class="text-gray-700 hover:text-blue-500">Home</a>
+                    <a href="#projects" class="text-gray-700 hover:text-blue-500">Projects</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-500">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="container mx-auto px-6 py-16 text-center">
+        <h2 class="text-3xl font-semibold">Welcome to My Portfolio</h2>
+        <p class="mt-4 text-gray-600">Hi, I'm Monika, a recent graduate with a Master's degree in Computer Applications. I am a Full Stack Developer with a passion for creating visually appealing and user- friendly websites. My comprehensive knowledge spans both frontend and backend development, and I am eagerly anticipating the opportunity to apply my skills in a professional context. I am known for my quick learning ability and my collaborative approach as a team player.I am confident in my capacity to be a valuable asset to any web development team.</p>
+    </section>
+
+    <section id="projects" class="container mx-auto px-6 py-16">
+        <h2 class="text-3xl font-semibold text-center">Projects</h2>
+        <div class="mt-6 flex flex-wrap justify-center">
+            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h3 class="text-lg font-semibold">BankProject</h3>
+                    <p class="mt-2 text-gray-600">Description of Project 1. User can create a new account or log into an existing account.
+                        Random Account number and PIN are automatically generated when creating a new account.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h3 class="text-lg font-semibold">Demo-ToDo-List-App</h3>
+                    <p class="mt-2 text-gray-600">Description of Project 2. The Demo-Todo-List-App is a simple yet powerful application designed to help users manage their daily tasks efficiently.</p>
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 lg:w-1/3 p-4">
+                <div class="bg-white shadow-lg rounded-lg p-4">
+                    <h3 class="text-lg font-semibold">Hotel-Booking</h3>
+                    <p class="mt-2 text-gray-600">Description of Project 3. Hotel Booking System is online booking engine that allows guests to make secure online reservations through hotel website and helps hotels to accept bookings and collect payments online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mx-auto px-6 py-16 text-center">
+        <h2 class="text-3xl font-semibold">Contact</h2>
+        <p class="mt-4 text-gray-600">Get in touch with me by filling out the form below or emailing me at <a href="mailto:barmasemonika8@gmail.com" class="text-blue-500">barmasemonika8@example.com</a></p>
+        <div class="mt-6">
+            <form class="max-w-xl mx-auto bg-white p-8 shadow-lg rounded-lg">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-semibold">Name</label>
+                    <input type="text" id="name" class="w-full px-3 py-2 mt-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-semibold">Email</label>
+                    <input type="email" id="email" class="w-full px-3 py-2 mt-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-semibold">Message</label>
+                    <textarea id="message" rows="4" class="w-full px-3 py-2 mt-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-white shadow py-4">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-600">&copy; 2024 Monika's Portfolio. All rights reserved.</p>
+            <div class="mt-2">
+                <a href="https://github.com/monikabarmase" class="text-gray-600 hover:text-blue-500 mx-2">GitHub</a>
+                <a href="https://www.linkedin.com/in/monika-barmase-7544b5252/" class="text-gray-600 hover:text-blue-500 mx-2">LinkedIn</a>
+                <a href="https://twitter.com/monika" class="text-gray-600 hover:text-blue-500 mx-2">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+
